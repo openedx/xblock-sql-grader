@@ -26,7 +26,7 @@ def package_data(pkg, roots):
 
 setup(
     name='xblock-sql-grader',
-    version='0.0.1',
+    version='0.0.2',
     description='SQL Grader XBlock',  # TODO: write a better description.
     license='AGPLv3',
     packages=[
