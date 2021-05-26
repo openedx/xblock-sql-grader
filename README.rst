@@ -48,3 +48,4 @@ and add the following:
    :target: https://coveralls.io/github/Stanford-Online/xblock-sql-grader?branch=master
 .. |badge-travis| image:: https://travis-ci.org/Stanford-Online/xblock-sql-grader.svg?branch=master
    :target: https://travis-ci.org/Stanford-Online/xblock-sql-grader
+
