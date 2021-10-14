@@ -4,13 +4,17 @@
 #
 #    make upgrade
 #
-coverage==5.5
+-e git+https://github.com/edx/codejail.git@52c254b7c711da94fe99e737d3026291a2b6ab27#egg=edx-codejail
+    # via -r requirements/test.in
+coverage==6.2
     # via -r requirements/test.in
 edx-opaque-keys==2.2.2
     # via -r requirements/test.in
-pbr==5.6.0
+pbr==5.8.0
     # via stevedore
-pymongo==3.11.4
+pymongo==4.0
     # via edx-opaque-keys
-stevedore==3.3.0
+six==1.16.0
+    # via edx-codejail
+stevedore==3.5.0
     # via edx-opaque-keys

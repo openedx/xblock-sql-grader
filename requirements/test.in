@@ -2,3 +2,5 @@
 
 coverage
 edx-opaque-keys
+#edx-codejail
+-e git+https://github.com/edx/codejail.git@52c254b7c711da94fe99e737d3026291a2b6ab27#egg=edx-codejail
