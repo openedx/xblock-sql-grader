@@ -16,7 +16,7 @@ asgiref==3.6.0
     #   django
 astroid==2.14.2
     # via pylint
-coverage==7.1.0
+coverage==7.2.0
     # via -r requirements/test.txt
 dill==0.3.6
     # via pylint
