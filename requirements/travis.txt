@@ -6,17 +6,17 @@
 #
 certifi==2022.12.7
     # via requests
-charset-normalizer==3.0.1
+charset-normalizer==3.1.0
     # via requests
 codecov==2.1.12
     # via -r requirements/travis.in
-coverage==7.1.0
+coverage==7.2.2
     # via codecov
 distlib==0.3.6
     # via
     #   -r requirements/tox.txt
     #   virtualenv
-filelock==3.9.0
+filelock==3.10.2
     # via
     #   -r requirements/tox.txt
     #   tox
@@ -27,7 +27,7 @@ packaging==23.0
     # via
     #   -r requirements/tox.txt
     #   tox
-platformdirs==3.0.0
+platformdirs==3.1.1
     # via
     #   -r requirements/tox.txt
     #   virtualenv
@@ -53,9 +53,9 @@ tox==3.28.0
     # via
     #   -c requirements/common_constraints.txt
     #   -r requirements/tox.txt
-urllib3==1.26.14
+urllib3==1.26.15
     # via requests
-virtualenv==20.19.0
+virtualenv==20.21.0
     # via
     #   -r requirements/tox.txt
     #   tox
