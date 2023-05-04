@@ -10,7 +10,7 @@ appdirs==1.4.4
     # via fs
 asgiref==3.6.0
     # via django
-django==3.2.18
+django==3.2.19
     # via
     #   -c requirements/common_constraints.txt
     #   -r requirements/base.in
@@ -36,7 +36,6 @@ simplejson==3.19.1
     # via xblock-utils
 six==1.16.0
     # via
-    #   codejail
     #   fs
     #   python-dateutil
 sqlparse==0.4.4
