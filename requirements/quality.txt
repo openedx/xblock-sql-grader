@@ -20,7 +20,7 @@ coverage==7.2.5
     # via -r requirements/test.txt
 dill==0.3.6
     # via pylint
-django==3.2.18
+django==3.2.19
     # via
     #   -c requirements/common_constraints.txt
     #   -r requirements/base.txt
@@ -57,7 +57,7 @@ platformdirs==3.5.0
     # via pylint
 pycodestyle==2.10.0
     # via -r requirements/quality.in
-pylint==2.17.3
+pylint==2.17.4
     # via -r requirements/quality.in
 pymongo==3.13.0
     # via
@@ -83,7 +83,6 @@ simplejson==3.19.1
 six==1.16.0
     # via
     #   -r requirements/base.txt
-    #   codejail
     #   fs
     #   python-dateutil
 sqlparse==0.4.4
