@@ -10,17 +10,17 @@ appdirs==1.4.4
     # via
     #   -r requirements/base.txt
     #   fs
-asgiref==3.6.0
+asgiref==3.7.2
     # via
     #   -r requirements/base.txt
     #   django
-astroid==2.15.4
+astroid==2.15.6
     # via pylint
-coverage==7.2.5
+coverage==7.2.7
     # via -r requirements/test.txt
 dill==0.3.6
     # via pylint
-django==3.2.18
+django==3.2.20
     # via
     #   -c requirements/common_constraints.txt
     #   -r requirements/base.txt
@@ -34,7 +34,7 @@ isort==5.12.0
     # via pylint
 lazy-object-proxy==1.9.0
     # via astroid
-lxml==4.9.2
+lxml==4.9.3
     # via
     #   -r requirements/base.txt
     #   xblock
@@ -42,7 +42,7 @@ mako==1.2.4
     # via
     #   -r requirements/base.txt
     #   xblock-utils
-markupsafe==2.1.2
+markupsafe==2.1.3
     # via
     #   -r requirements/base.txt
     #   mako
@@ -53,11 +53,11 @@ pbr==5.11.1
     # via
     #   -r requirements/test.txt
     #   stevedore
-platformdirs==3.5.0
+platformdirs==3.8.1
     # via pylint
 pycodestyle==2.10.0
     # via -r requirements/quality.in
-pylint==2.17.3
+pylint==2.17.4
     # via -r requirements/quality.in
 pymongo==3.13.0
     # via
@@ -83,14 +83,13 @@ simplejson==3.19.1
 six==1.16.0
     # via
     #   -r requirements/base.txt
-    #   codejail
     #   fs
     #   python-dateutil
 sqlparse==0.4.4
     # via
     #   -r requirements/base.txt
     #   django
-stevedore==5.0.0
+stevedore==5.1.0
     # via
     #   -r requirements/test.txt
     #   edx-opaque-keys
@@ -98,8 +97,10 @@ tomli==2.0.1
     # via pylint
 tomlkit==0.11.8
     # via pylint
-typing-extensions==4.5.0
+typing-extensions==4.7.1
     # via
+    #   -r requirements/base.txt
+    #   asgiref
     #   astroid
     #   pylint
 web-fragments==2.0.0
@@ -117,7 +118,7 @@ xblock==1.6.2
     # via
     #   -r requirements/base.txt
     #   xblock-utils
-xblock-utils==3.0.0
+xblock-utils==3.2.0
     # via -r requirements/base.txt
 
 # The following packages are considered to be unsafe in a requirements file:
