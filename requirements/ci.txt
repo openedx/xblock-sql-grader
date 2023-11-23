@@ -32,6 +32,7 @@ packaging==23.2
     #   tox
 platformdirs==3.11.0
     # via
+    #   -c requirements/common_constraints.txt
     #   -r requirements/tox.txt
     #   tox
     #   virtualenv
@@ -50,7 +51,7 @@ tomli==2.0.1
     #   tox
 tox==4.11.3
     # via -r requirements/tox.txt
-virtualenv==20.24.6
+virtualenv==20.24.7
     # via
     #   -r requirements/tox.txt
     #   tox
