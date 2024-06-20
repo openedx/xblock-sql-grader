@@ -1,4 +1,3 @@
----
 name: Python CI
 
 on:
@@ -15,11 +14,11 @@ jobs:
       matrix:
         python-version:
         - '3.8'
+        - '3.11'
         TOX_ENV:
         - csslint
         - eslint
         - quality
-        - django32
         - django42
     steps:
     - uses: actions/checkout@v2
