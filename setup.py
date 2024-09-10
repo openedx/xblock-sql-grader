@@ -124,7 +124,7 @@ def is_requirement(line):
 
 setup(
     name='xblock-sql-grader',
-    version='0.6.0',
+    version='1.0.0',
     description='SQL Grader XBlock',  # TODO: write a better description.
     license='AGPLv3',
     long_description=README,
@@ -154,7 +154,7 @@ setup(
         'License :: OSI Approved :: Apache Software License',
         'Natural Language :: English',
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
     ]
 )
