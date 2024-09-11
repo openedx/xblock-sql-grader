@@ -13,7 +13,6 @@ jobs:
     strategy:
       matrix:
         python-version:
-        - '3.8'
         - '3.11'
         TOX_ENV:
         - csslint
