@@ -9,12 +9,12 @@ on:
 
 jobs:
   run_tests:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         python-version:
-        - '3.8'
         - '3.11'
+        - '3.12'
         TOX_ENV:
         - csslint
         - eslint
