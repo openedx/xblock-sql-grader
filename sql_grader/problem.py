@@ -14,6 +14,7 @@ import importlib.resources
 
 loader = ResourceLoader(__name__)
 
+
 class SqlProblem:
     """
     Handle modeling and processing of SQL problems aside from XBlock logic
