@@ -4,7 +4,15 @@ Handle data modeling for the XBlock
 import os
 import sqlite3
 
-import pkg_resources
+try:
+    from xblock.utils.resources import ResourceLoader
+except ModuleNotFoundError:
+    # For backward compatibility with releases older than Quince.
+    from xblockutils.resources import ResourceLoader
+import importlib.resources
+
+
+loader = ResourceLoader(__name__)
 
 
 class SqlProblem:
@@ -178,10 +186,7 @@ def all_datasets():
     """
     Lookup the names of all avaiable datasets (.sql files)
     """
-    dataset_directory = pkg_resources.resource_filename(
-        'sql_grader',
-        'datasets'
-    )
+    dataset_directory = importlib.resources.files('sql_grader') / 'datasets'
     for _, _, files in os.walk(dataset_directory):
         for fname in files:
             if fname.endswith('.sql'):
@@ -193,8 +198,7 @@ def resource_string(path):
     """
     Handy helper for getting resources from our kit
     """
-    data = pkg_resources.resource_string(__name__, path)
-    return data.decode('utf8')
+    return loader.load_unicode(path)
 
 
 def create_database(database_name):
