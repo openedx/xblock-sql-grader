@@ -26,7 +26,7 @@ from ..problem import all_datasets
 log = logging.getLogger('sql_grader')
 
 
-# pylint: disable=too-many-arguments
+# pylint: disable=too-many-arguments,too-many-positional-arguments
 def attempt_safe(dataset, answer_query, verify_query, modification_query,
                  is_ordered, query):
     """

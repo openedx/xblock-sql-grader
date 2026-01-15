@@ -28,7 +28,7 @@ class SqlProblem:
     answer_error = None
     is_ordered = True
 
-    # pylint: disable=too-many-arguments
+    # pylint: disable=too-many-arguments,too-many-positional-arguments
     def __init__(
             self,
             database=None,

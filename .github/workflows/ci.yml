@@ -22,9 +22,9 @@ jobs:
         - django42
         - django52
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v6
     - name: setup python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v6
       with:
         python-version: ${{ matrix.python-version }}
     - run: make ci.test TOX_ENV=${{ matrix.TOX_ENV }}
