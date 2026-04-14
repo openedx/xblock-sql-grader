@@ -1,3 +1,18 @@
+.. image:: https://img.shields.io/badge/status-deprecated-red
+   :alt: Status
+
+.. warning::
+
+   **This Repository is Deprecated**
+
+   This repository is no longer maintained.
+
+   The SQL Grader XBlock has been moved to:
+   https://github.com/openedx/xblocks-extra
+
+   Please use the new repository for all future work.
+
+
 SQL Grader XBlock
 =================
 
